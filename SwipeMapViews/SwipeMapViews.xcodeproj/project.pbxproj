@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0150623A1757B51A00DF0646 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015062391757B51A00DF0646 /* UIKit.framework */; };
+		0150623C1757B51A00DF0646 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0150623B1757B51A00DF0646 /* Foundation.framework */; };
+		0150623E1757B51A00DF0646 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0150623D1757B51A00DF0646 /* CoreGraphics.framework */; };
+		015062441757B51A00DF0646 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 015062421757B51A00DF0646 /* InfoPlist.strings */; };
+		015062461757B51A00DF0646 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 015062451757B51A00DF0646 /* main.m */; };
+		0150624A1757B51A00DF0646 /* SwipeViewsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 015062491757B51A00DF0646 /* SwipeViewsAppDelegate.m */; };
+		0150624C1757B51A00DF0646 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0150624B1757B51A00DF0646 /* Default.png */; };
+		0150624E1757B51A00DF0646 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0150624D1757B51A00DF0646 /* Default@2x.png */; };
+		015062501757B51A00DF0646 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0150624F1757B51A00DF0646 /* Default-568h@2x.png */; };
+		015062531757B51A00DF0646 /* SwipeViewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 015062521757B51A00DF0646 /* SwipeViewsViewController.m */; };
+		015062561757B51A00DF0646 /* SwipeViewsViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 015062541757B51A00DF0646 /* SwipeViewsViewController_iPhone.xib */; };
+		015062591757B51A00DF0646 /* SwipeViewsViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 015062571757B51A00DF0646 /* SwipeViewsViewController_iPad.xib */; };
+		015062601757B68B00DF0646 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0150625F1757B68B00DF0646 /* CoreLocation.framework */; };
+		015062621757B69300DF0646 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015062611757B69300DF0646 /* CoreText.framework */; };
+		015062641757B6A700DF0646 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 015062631757B6A700DF0646 /* libc++.dylib */; };
+		015062661757B6B100DF0646 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 015062651757B6B100DF0646 /* libz.dylib */; };
+		015062681757B6BB00DF0646 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015062671757B6BB00DF0646 /* OpenGLES.framework */; };
+		0150626A1757B6C500DF0646 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015062691757B6C500DF0646 /* MediaPlayer.framework */; };
+		0150626C1757B6CE00DF0646 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0150626B1757B6CE00DF0646 /* MobileCoreServices.framework */; };
+		0150626E1757B6D800DF0646 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0150626D1757B6D800DF0646 /* QuartzCore.framework */; };
+		015062701757B6E400DF0646 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0150626F1757B6E400DF0646 /* Security.framework */; };
+		015062721757B75000DF0646 /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 015062711757B75000DF0646 /* ArcGIS.bundle */; };
+		015062741757B87000DF0646 /* compare-bar-1_landscape_ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 015062731757B87000DF0646 /* compare-bar-1_landscape_ipad.png */; };
+		015063A5175908C300DF0646 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 015063A4175908C300DF0646 /* icon@2x.png */; };
+		015063A71759232700DF0646 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 015063A61759232700DF0646 /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		015062361757B51A00DF0646 /* SwipeMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		015062391757B51A00DF0646 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0150623B1757B51A00DF0646 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0150623D1757B51A00DF0646 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		015062411757B51A00DF0646 /* SwipeMapViews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwipeMapViews-Info.plist"; sourceTree = "<group>"; };
+		015062431757B51A00DF0646 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		015062451757B51A00DF0646 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		015062471757B51A00DF0646 /* SwipeMapViews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwipeMapViews-Prefix.pch"; sourceTree = "<group>"; };
+		015062481757B51A00DF0646 /* SwipeViewsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeViewsAppDelegate.h; sourceTree = "<group>"; };
+		015062491757B51A00DF0646 /* SwipeViewsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeViewsAppDelegate.m; sourceTree = "<group>"; };
+		0150624B1757B51A00DF0646 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0150624D1757B51A00DF0646 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0150624F1757B51A00DF0646 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		015062511757B51A00DF0646 /* SwipeViewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeViewsViewController.h; sourceTree = "<group>"; };
+		015062521757B51A00DF0646 /* SwipeViewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeViewsViewController.m; sourceTree = "<group>"; };
+		015062551757B51A00DF0646 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SwipeViewsViewController_iPhone.xib; sourceTree = "<group>"; };
+		015062581757B51A00DF0646 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SwipeViewsViewController_iPad.xib; sourceTree = "<group>"; };
+		0150625F1757B68B00DF0646 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		015062611757B69300DF0646 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		015062631757B6A700DF0646 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		015062651757B6B100DF0646 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		015062671757B6BB00DF0646 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		015062691757B6C500DF0646 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		0150626B1757B6CE00DF0646 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		0150626D1757B6D800DF0646 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0150626F1757B6E400DF0646 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		015062711757B75000DF0646 /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ArcGIS.bundle; path = ../../../../../Library/SDKs/ArcGIS/iOS/ArcGIS.framework/Versions/Current/Resources/ArcGIS.bundle; sourceTree = "<group>"; };
+		015062731757B87000DF0646 /* compare-bar-1_landscape_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compare-bar-1_landscape_ipad.png"; sourceTree = "<group>"; };
+		015063A4175908C300DF0646 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		015063A61759232700DF0646 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		015062331757B51A00DF0646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015062701757B6E400DF0646 /* Security.framework in Frameworks */,
+				0150626E1757B6D800DF0646 /* QuartzCore.framework in Frameworks */,
+				0150626C1757B6CE00DF0646 /* MobileCoreServices.framework in Frameworks */,
+				0150626A1757B6C500DF0646 /* MediaPlayer.framework in Frameworks */,
+				015062681757B6BB00DF0646 /* OpenGLES.framework in Frameworks */,
+				015062661757B6B100DF0646 /* libz.dylib in Frameworks */,
+				015062641757B6A700DF0646 /* libc++.dylib in Frameworks */,
+				015062621757B69300DF0646 /* CoreText.framework in Frameworks */,
+				015062601757B68B00DF0646 /* CoreLocation.framework in Frameworks */,
+				0150623A1757B51A00DF0646 /* UIKit.framework in Frameworks */,
+				0150623C1757B51A00DF0646 /* Foundation.framework in Frameworks */,
+				0150623E1757B51A00DF0646 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0150622D1757B51A00DF0646 = {
+			isa = PBXGroup;
+			children = (
+				0150623F1757B51A00DF0646 /* SwipeMapViews */,
+				015062381757B51A00DF0646 /* Frameworks */,
+				015062371757B51A00DF0646 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		015062371757B51A00DF0646 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				015062361757B51A00DF0646 /* SwipeMaps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		015062381757B51A00DF0646 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				015062711757B75000DF0646 /* ArcGIS.bundle */,
+				0150626F1757B6E400DF0646 /* Security.framework */,
+				0150626D1757B6D800DF0646 /* QuartzCore.framework */,
+				0150626B1757B6CE00DF0646 /* MobileCoreServices.framework */,
+				015062691757B6C500DF0646 /* MediaPlayer.framework */,
+				015062671757B6BB00DF0646 /* OpenGLES.framework */,
+				015062651757B6B100DF0646 /* libz.dylib */,
+				015062631757B6A700DF0646 /* libc++.dylib */,
+				015062611757B69300DF0646 /* CoreText.framework */,
+				0150625F1757B68B00DF0646 /* CoreLocation.framework */,
+				015062391757B51A00DF0646 /* UIKit.framework */,
+				0150623B1757B51A00DF0646 /* Foundation.framework */,
+				0150623D1757B51A00DF0646 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0150623F1757B51A00DF0646 /* SwipeMapViews */ = {
+			isa = PBXGroup;
+			children = (
+				015062481757B51A00DF0646 /* SwipeViewsAppDelegate.h */,
+				015062491757B51A00DF0646 /* SwipeViewsAppDelegate.m */,
+				015062511757B51A00DF0646 /* SwipeViewsViewController.h */,
+				015062521757B51A00DF0646 /* SwipeViewsViewController.m */,
+				015062541757B51A00DF0646 /* SwipeViewsViewController_iPhone.xib */,
+				015062571757B51A00DF0646 /* SwipeViewsViewController_iPad.xib */,
+				015062401757B51A00DF0646 /* Supporting Files */,
+			);
+			path = SwipeMapViews;
+			sourceTree = "<group>";
+		};
+		015062401757B51A00DF0646 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				015063A61759232700DF0646 /* icon.png */,
+				015063A4175908C300DF0646 /* icon@2x.png */,
+				015062731757B87000DF0646 /* compare-bar-1_landscape_ipad.png */,
+				015062411757B51A00DF0646 /* SwipeMapViews-Info.plist */,
+				015062421757B51A00DF0646 /* InfoPlist.strings */,
+				015062451757B51A00DF0646 /* main.m */,
+				015062471757B51A00DF0646 /* SwipeMapViews-Prefix.pch */,
+				0150624B1757B51A00DF0646 /* Default.png */,
+				0150624D1757B51A00DF0646 /* Default@2x.png */,
+				0150624F1757B51A00DF0646 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		015062351757B51A00DF0646 /* SwipeMapViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0150625C1757B51A00DF0646 /* Build configuration list for PBXNativeTarget "SwipeMapViews" */;
+			buildPhases = (
+				015062321757B51A00DF0646 /* Sources */,
+				015062331757B51A00DF0646 /* Frameworks */,
+				015062341757B51A00DF0646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeMapViews;
+			productName = SwipeMapViews;
+			productReference = 015062361757B51A00DF0646 /* SwipeMaps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0150622E1757B51A00DF0646 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SwipeViews;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Esri;
+			};
+			buildConfigurationList = 015062311757B51A00DF0646 /* Build configuration list for PBXProject "SwipeMapViews" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0150622D1757B51A00DF0646;
+			productRefGroup = 015062371757B51A00DF0646 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				015062351757B51A00DF0646 /* SwipeMapViews */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		015062341757B51A00DF0646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015062441757B51A00DF0646 /* InfoPlist.strings in Resources */,
+				0150624C1757B51A00DF0646 /* Default.png in Resources */,
+				0150624E1757B51A00DF0646 /* Default@2x.png in Resources */,
+				015062501757B51A00DF0646 /* Default-568h@2x.png in Resources */,
+				015062561757B51A00DF0646 /* SwipeViewsViewController_iPhone.xib in Resources */,
+				015062591757B51A00DF0646 /* SwipeViewsViewController_iPad.xib in Resources */,
+				015062721757B75000DF0646 /* ArcGIS.bundle in Resources */,
+				015062741757B87000DF0646 /* compare-bar-1_landscape_ipad.png in Resources */,
+				015063A5175908C300DF0646 /* icon@2x.png in Resources */,
+				015063A71759232700DF0646 /* icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		015062321757B51A00DF0646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				015062461757B51A00DF0646 /* main.m in Sources */,
+				0150624A1757B51A00DF0646 /* SwipeViewsAppDelegate.m in Sources */,
+				015062531757B51A00DF0646 /* SwipeViewsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		015062421757B51A00DF0646 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				015062431757B51A00DF0646 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		015062541757B51A00DF0646 /* SwipeViewsViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				015062551757B51A00DF0646 /* en */,
+			);
+			name = SwipeViewsViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		015062571757B51A00DF0646 /* SwipeViewsViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				015062581757B51A00DF0646 /* en */,
+			);
+			name = SwipeViewsViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0150625A1757B51A00DF0646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0150625B1757B51A00DF0646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0150625D1757B51A00DF0646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Environmental Systems Research Institute Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Environmental Systems Research Institute Inc.";
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/iOS/**";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwipeMapViews/SwipeMapViews-Prefix.pch";
+				INFOPLIST_FILE = "SwipeMapViews/SwipeMapViews-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+				);
+				PRODUCT_NAME = SwipeMaps;
+				PROVISIONING_PROFILE = "EE074C69-7A97-4760-9F88-8A03F237FB8D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EE074C69-7A97-4760-9F88-8A03F237FB8D";
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0150625E1757B51A00DF0646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Environmental Systems Research Institute Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Environmental Systems Research Institute Inc.";
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/iOS/**";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwipeMapViews/SwipeMapViews-Prefix.pch";
+				INFOPLIST_FILE = "SwipeMapViews/SwipeMapViews-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+				);
+				PRODUCT_NAME = SwipeMaps;
+				PROVISIONING_PROFILE = "EE074C69-7A97-4760-9F88-8A03F237FB8D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EE074C69-7A97-4760-9F88-8A03F237FB8D";
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		015062311757B51A00DF0646 /* Build configuration list for PBXProject "SwipeMapViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0150625A1757B51A00DF0646 /* Debug */,
+				0150625B1757B51A00DF0646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0150625C1757B51A00DF0646 /* Build configuration list for PBXNativeTarget "SwipeMapViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0150625D1757B51A00DF0646 /* Debug */,
+				0150625E1757B51A00DF0646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0150622E1757B51A00DF0646 /* Project object */;
+}
