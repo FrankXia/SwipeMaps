@@ -28,7 +28,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    // Set the client ID
+    // Set the client ID, this update is to remove the Developer only watermark
+    // in the map view. 
     NSError *error;
     NSString* clientID = @"wuQ8cQ6kRErp78mI";
     [AGSRuntimeEnvironment setClientID:clientID error:&error];
