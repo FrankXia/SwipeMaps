@@ -28,6 +28,16 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
+    // Set the client ID
+    NSError *error;
+    NSString* clientID = @"wuQ8cQ6kRErp78mI";
+    [AGSRuntimeEnvironment setClientID:clientID error:&error];
+    if(error){
+        // We had a problem using our client ID
+        NSLog(@"Error using client ID : %@",[error localizedDescription]);
+    }
+    
+    
     NSURL *mapUrl = [NSURL URLWithString:kWorldImageryMap];
     AGSTiledMapServiceLayer *tiledLyr = [AGSTiledMapServiceLayer tiledMapServiceLayerWithURL:mapUrl];
     [self.mainMapView addMapLayer:tiledLyr withName:@"Bottom Map Layer"];
